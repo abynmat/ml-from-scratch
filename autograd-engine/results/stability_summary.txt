@@ -1,0 +1,9 @@
+[A] naive CE first non-finite loss at scale 23.7; first non-finite grad at 23.7; stable CE worst rel err 7.2e-08, non-finite grads 0.0
+[B] float32 sigmoid grad exactly zero from x=16.75; float64 from x=36.75
+[C] tanh (uniform_fan_in)                    layer1 6.43e-08  layer30 3.17e-02  last/first 4.9e+05
+[C] sigmoid (uniform_fan_in)                 layer1 0.00e+00  layer30 2.49e-01  last/first inf
+[C] relu (uniform_fan_in)                    layer1 2.04e-12  layer30 1.86e-02  last/first 9.1e+09
+[C] relu (kaiming_normal)                    layer1 1.15e+00  layer30 6.95e+00  last/first 6.0e+00
+[C] relu + LayerNorm (uniform_fan_in)        layer1 8.32e-01  layer30 2.67e+00  last/first 3.2e+00
+[D] float32: best central h=1.8e-02 (theory eps^(1/3)=4.9e-03), min median err 2.0e-06; forward best h=1.0e-03 err 2.7e-05
+[D] float64: best central h=1.0e-05 (theory eps^(1/3)=6.1e-06), min median err 2.8e-12; forward best h=5.6e-08 err 1.6e-09

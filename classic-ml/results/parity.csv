@@ -1,0 +1,25 @@
+algorithm,dataset,n_train,metric,mlfs,sklearn,diff,agreement,mlfs_fit_s,sklearn_fit_s,slowdown,hyperparameters
+OLS (closed form),california,3750,R2,0.6538,0.6538,0.0,1.0,0.0007,0.001,0.69,-
+OLS (gradient descent),california,3750,R2,0.6538,0.6538,0.0,1.0,0.0511,0.0009,56.89,"lr=0.1, 5000 steps; sklearn has no batch GD, ref = exact OLS"
+Ridge (coordinate descent),diabetes,331,R2,0.358,0.358,-0.0,1.0,0.0447,0.001,44.66,alpha=1
+Lasso (coordinate descent),diabetes,331,R2,0.3561,0.3561,0.0,0.9999,0.0524,0.0012,43.34,alpha=0.1
+Logistic (Newton/IRLS),breast_cancer,426,accuracy,0.958,0.958,0.0,1.0,0.0036,0.0023,1.59,C=1; sklearn: lbfgs
+Logistic (gradient descent),breast_cancer,426,accuracy,0.958,0.958,0.0,1.0,0.4299,0.0025,168.87,"C=1, lr=0.5"
+Logistic multinomial (GD),wine,133,accuracy,1.0,1.0,0.0,1.0,0.151,0.0022,69.39,"C=1, 3 classes"
+kNN classifier,digits,1347,accuracy,0.9733,0.9733,0.0,1.0,0.0001,0.0004,0.17,k=5
+kNN regressor,california,3750,R2,0.71,0.71,0.0,1.0,0.0,0.0012,0.01,k=10
+Gaussian NB,wine,133,accuracy,0.9556,0.9556,0.0,1.0,0.0002,0.0005,0.32,-
+Multinomial NB,digits_raw,1347,accuracy,0.9044,0.9044,0.0,1.0,0.0003,0.0011,0.32,"alpha=1, raw pixel counts"
+CART classifier (gini),breast_cancer,426,accuracy,0.9091,0.9021,0.007,0.965,0.0234,0.0066,3.57,unpruned
+CART classifier (entropy),wine,133,accuracy,0.9111,0.9333,-0.0222,0.9556,0.0049,0.001,4.76,max_depth=4
+CART regressor (MSE),california,3750,R2,0.6385,0.6383,0.0002,0.9895,0.0738,0.0257,2.87,max_depth=8
+Random forest,breast_cancer,426,accuracy,0.951,0.9441,0.007,0.993,0.5108,0.2136,2.39,"100 trees, sqrt features"
+Gradient boosting regressor,california,3750,R2,0.7635,0.7639,-0.0003,0.9989,1.714,1.7111,1.0,"100 x depth 3, lr=0.1"
+Gradient boosting classifier,breast_cancer,426,accuracy,0.958,0.958,0.0,1.0,1.2331,0.5421,2.27,"100 x depth 3, Newton leaves"
+SVM linear (SMO),breast_cancer,426,accuracy,0.965,0.965,0.0,1.0,0.0566,0.0022,25.23,C=1
+SVM RBF (SMO),breast_cancer,426,accuracy,0.958,0.958,0.0,1.0,0.0115,0.0039,2.94,"C=1, gamma=scale"
+Perceptron,breast_cancer,426,accuracy,0.951,0.9441,0.007,0.965,0.028,0.0009,31.87,50 epochs
+"MLP (1 hidden layer, Adam)",digits,1347,accuracy,0.9733,0.9733,0.0,0.9844,0.4871,0.6975,0.7,"64 ReLU, alpha=1e-4"
+k-means (++ init),digits,1347,ARI vs labels,0.4668,0.4838,-0.017,0.9473,0.3295,0.1416,2.33,"k=10, 10 restarts"
+Gaussian mixture (EM),iris,112,test log-lik / sample,-2.1377,-2.2262,0.0886,1.0,0.0024,0.003,0.81,3 full-cov components
+PCA (SVD),digits,1347,explained var (10 PCs),0.6026,0.6026,-0.0,1.0,0.0046,0.0009,4.98,10 components

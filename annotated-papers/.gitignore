@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+results/run.log
+*/results/run.log
+checkpoints/
+*.pt
+data/mnist/
+data/fashion/

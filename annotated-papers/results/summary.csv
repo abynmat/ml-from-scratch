@@ -1,0 +1,91 @@
+paper,metric,value,note
+01_adam,mnist_test_acc_adam,0.9718,"best lr 0.001, 3 epochs"
+01_adam,mnist_test_acc_adam_nobc,0.9776,"best lr 0.001, 3 epochs"
+01_adam,mnist_test_acc_rmsprop,0.9643,"best lr 0.001, 3 epochs"
+01_adam,mnist_test_acc_sgdm,0.9705,"best lr 0.1, 3 epochs"
+01_adam,parity_max_abs_diff_vs_torch,9.12696e-07,"200 steps, same init"
+01_adam,quadratic_final_f_adam,0.0938649,best lr 0.01
+01_adam,quadratic_final_f_adam_nobc,0.08529,best lr 0.01
+01_adam,quadratic_final_f_rmsprop,0.0930195,best lr 0.01
+01_adam,quadratic_final_f_sgdm,0.436238,best lr 0.003
+01_adam,step_ratio_peak_nobc_over_bc,5.19993,"measured, beta2=0.999"
+01_adam,stress_b2_0.9999_lr_0.01_acc_bc,0.9577,1 epoch
+01_adam,stress_b2_0.9999_lr_0.01_acc_nobc,0.1101,1 epoch
+02_batchnorm,best_test_acc_bn,0.8956,lr 0.3
+02_batchnorm,best_test_acc_ln,0.8408,lr 0.003
+02_batchnorm,best_test_acc_none,0.8049,lr 0.03
+02_batchnorm,evalbug_acc_eval_mode,0.8916,
+02_batchnorm,evalbug_acc_train_mode_bs2,0.6365,
+02_batchnorm,evalbug_acc_train_mode_sorted,0.1522,
+02_batchnorm,lr_range_acc_ge_85_bn,0.01-1,LRs reaching >=85% test acc in 2 epochs
+02_batchnorm,lr_range_acc_ge_85_ln,none,LRs reaching >=85% test acc in 2 epochs
+02_batchnorm,lr_range_acc_ge_85_none,none,LRs reaching >=85% test acc in 2 epochs
+02_batchnorm,steps_to_85_at_lr0.03_bn,400,2k test subset
+02_batchnorm,steps_to_85_at_lr0.03_ln,900,2k test subset
+02_batchnorm,steps_to_85_at_lr0.03_none,None,2k test subset
+03_resnet,test_err_plain20,0.0969,Fashion-MNIST test
+03_resnet,test_err_plain32,0.1149,Fashion-MNIST test
+03_resnet,test_err_plain56,0.1827,Fashion-MNIST test
+03_resnet,test_err_plain8,0.0988,Fashion-MNIST test
+03_resnet,test_err_res20,0.0855,Fashion-MNIST test
+03_resnet,test_err_res32,0.1014,Fashion-MNIST test
+03_resnet,test_err_res56,0.1121,Fashion-MNIST test
+03_resnet,test_err_res8,0.1035,Fashion-MNIST test
+03_resnet,train_err_plain20,0.0766,"6 ep, 30000 imgs"
+03_resnet,train_err_plain32,0.0973,"6 ep, 30000 imgs"
+03_resnet,train_err_plain56,0.1716,"6 ep, 30000 imgs"
+03_resnet,train_err_plain8,0.0805,"6 ep, 30000 imgs"
+03_resnet,train_err_res20,0.06,"6 ep, 30000 imgs"
+03_resnet,train_err_res32,0.083,"6 ep, 30000 imgs"
+03_resnet,train_err_res56,0.0868,"6 ep, 30000 imgs"
+03_resnet,train_err_res8,0.081,"6 ep, 30000 imgs"
+04_vae,beta0.25_active_units,10,of 10
+04_vae,beta0.25_kl_nats,26.6167,"test, z=10"
+04_vae,beta0.25_rec_nats,81.9541,"test, z=10"
+04_vae,beta0.5_active_units,10,of 10
+04_vae,beta0.5_kl_nats,22.3026,"test, z=10"
+04_vae,beta0.5_rec_nats,83.8439,"test, z=10"
+04_vae,beta16_active_units,2,of 10
+04_vae,beta16_kl_nats,1.13786,"test, z=10"
+04_vae,beta16_rec_nats,181.511,"test, z=10"
+04_vae,beta1_active_units,9,of 10
+04_vae,beta1_kl_nats,16.9621,"test, z=10"
+04_vae,beta1_neg_elbo_nats,106.686,"grey-level MNIST, not binarized"
+04_vae,beta1_rec_nats,89.7237,"test, z=10"
+04_vae,beta2_active_units,9,of 10
+04_vae,beta2_kl_nats,12.126,"test, z=10"
+04_vae,beta2_rec_nats,99.4549,"test, z=10"
+04_vae,beta4_active_units,6,of 10
+04_vae,beta4_kl_nats,7.73792,"test, z=10"
+04_vae,beta4_rec_nats,115.784,"test, z=10"
+04_vae,beta8_active_units,5,of 10
+04_vae,beta8_kl_nats,4.38833,"test, z=10"
+04_vae,beta8_rec_nats,138.383,"test, z=10"
+05_gan,early_grad_non-saturating_hs0,0.106881,first 50 G steps
+05_gan,early_grad_non-saturating_hs2000,5.30365,first 50 G steps
+05_gan,early_grad_saturating_hs0,0.0994231,first 50 G steps
+05_gan,early_grad_saturating_hs2000,0.404236,first 50 G steps
+05_gan,hq_frac_non-saturating_hs0,0.80546,within 3 std of a mode
+05_gan,hq_frac_non-saturating_hs2000,0.83516,within 3 std of a mode
+05_gan,hq_frac_saturating_hs0,0.70732,within 3 std of a mode
+05_gan,hq_frac_saturating_hs2000,0.59546,within 3 std of a mode
+05_gan,modes_covered_non-saturating_hs0,7.4,"mean of 5 seeds, of 8"
+05_gan,modes_covered_non-saturating_hs2000,3.4,"mean of 5 seeds, of 8"
+05_gan,modes_covered_saturating_hs0,7.8,"mean of 5 seeds, of 8"
+05_gan,modes_covered_saturating_hs2000,7.4,"mean of 5 seeds, of 8"
+06_ddpm,fd_proxy_cosine_1000steps,24.4761,"clipped-x0 sampler, 5000 train steps, n=500"
+06_ddpm,fd_proxy_cosine_1000steps_eq11,58.7659,literal eq. (11) sampler
+06_ddpm,fd_proxy_cosine_10steps,64.4484,"clipped-x0 sampler, 5000 train steps, n=500"
+06_ddpm,fd_proxy_cosine_200steps,23.6215,"clipped-x0 sampler, 5000 train steps, n=500"
+06_ddpm,fd_proxy_cosine_20steps,34.6471,"clipped-x0 sampler, 5000 train steps, n=500"
+06_ddpm,fd_proxy_cosine_50steps,28.5493,"clipped-x0 sampler, 5000 train steps, n=500"
+06_ddpm,fd_proxy_cosine_50steps_eq11,434.763,literal eq. (11) sampler
+06_ddpm,fd_proxy_floor_real_vs_real,17.3405,"n=500, 64-d MNIST CNN features"
+06_ddpm,fd_proxy_linear_1000steps,24.4466,"clipped-x0 sampler, 5000 train steps, n=500"
+06_ddpm,fd_proxy_linear_1000steps_eq11,25.3753,literal eq. (11) sampler
+06_ddpm,fd_proxy_linear_10steps,138.75,"clipped-x0 sampler, 5000 train steps, n=500"
+06_ddpm,fd_proxy_linear_200steps,28.4142,"clipped-x0 sampler, 5000 train steps, n=500"
+06_ddpm,fd_proxy_linear_20steps,61.6592,"clipped-x0 sampler, 5000 train steps, n=500"
+06_ddpm,fd_proxy_linear_50steps,30.0857,"clipped-x0 sampler, 5000 train steps, n=500"
+06_ddpm,fd_proxy_linear_50steps_eq11,29.9592,literal eq. (11) sampler
+06_ddpm,proxy_feature_net_test_acc,0.9791,

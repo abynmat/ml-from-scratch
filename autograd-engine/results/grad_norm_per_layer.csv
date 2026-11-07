@@ -1,0 +1,151 @@
+config,layer,weight_grad_norm
+tanh (uniform_fan_in),1,6.4263325e-08
+tanh (uniform_fan_in),2,6.1681675e-08
+tanh (uniform_fan_in),3,6.1534315e-08
+tanh (uniform_fan_in),4,6.458033e-08
+tanh (uniform_fan_in),5,7.6470734e-08
+tanh (uniform_fan_in),6,8.441899e-08
+tanh (uniform_fan_in),7,1.1648277e-07
+tanh (uniform_fan_in),8,1.5810026e-07
+tanh (uniform_fan_in),9,2.81881e-07
+tanh (uniform_fan_in),10,4.811914e-07
+tanh (uniform_fan_in),11,8.443955e-07
+tanh (uniform_fan_in),12,1.4747824e-06
+tanh (uniform_fan_in),13,2.6218606e-06
+tanh (uniform_fan_in),14,4.3836517e-06
+tanh (uniform_fan_in),15,7.293305e-06
+tanh (uniform_fan_in),16,1.2394521e-05
+tanh (uniform_fan_in),17,2.2643231e-05
+tanh (uniform_fan_in),18,3.8588303e-05
+tanh (uniform_fan_in),19,5.9363603e-05
+tanh (uniform_fan_in),20,0.00010935781
+tanh (uniform_fan_in),21,0.00019677193
+tanh (uniform_fan_in),22,0.00033544388
+tanh (uniform_fan_in),23,0.00054786005
+tanh (uniform_fan_in),24,0.0010897004
+tanh (uniform_fan_in),25,0.0019161161
+tanh (uniform_fan_in),26,0.0036832488
+tanh (uniform_fan_in),27,0.0057736957
+tanh (uniform_fan_in),28,0.00987981
+tanh (uniform_fan_in),29,0.017975835
+tanh (uniform_fan_in),30,0.031680807
+sigmoid (uniform_fan_in),1,0.0
+sigmoid (uniform_fan_in),2,0.0
+sigmoid (uniform_fan_in),3,0.0
+sigmoid (uniform_fan_in),4,0.0
+sigmoid (uniform_fan_in),5,0.0
+sigmoid (uniform_fan_in),6,6.2911766e-22
+sigmoid (uniform_fan_in),7,6.4946425e-21
+sigmoid (uniform_fan_in),8,4.9232798e-20
+sigmoid (uniform_fan_in),9,3.6979244e-19
+sigmoid (uniform_fan_in),10,2.694957e-18
+sigmoid (uniform_fan_in),11,1.8831291e-17
+sigmoid (uniform_fan_in),12,1.2795793e-16
+sigmoid (uniform_fan_in),13,8.4804806e-16
+sigmoid (uniform_fan_in),14,5.9256523e-15
+sigmoid (uniform_fan_in),15,4.1977357e-14
+sigmoid (uniform_fan_in),16,3.09429e-13
+sigmoid (uniform_fan_in),17,2.360667e-12
+sigmoid (uniform_fan_in),18,1.6695976e-11
+sigmoid (uniform_fan_in),19,9.924298e-11
+sigmoid (uniform_fan_in),20,7.009582e-10
+sigmoid (uniform_fan_in),21,5.380888e-09
+sigmoid (uniform_fan_in),22,3.6537692e-08
+sigmoid (uniform_fan_in),23,2.50387e-07
+sigmoid (uniform_fan_in),24,1.972229e-06
+sigmoid (uniform_fan_in),25,1.3843521e-05
+sigmoid (uniform_fan_in),26,9.880881e-05
+sigmoid (uniform_fan_in),27,0.0007126106
+sigmoid (uniform_fan_in),28,0.004843865
+sigmoid (uniform_fan_in),29,0.033734847
+sigmoid (uniform_fan_in),30,0.24936907
+relu (uniform_fan_in),1,2.037144e-12
+relu (uniform_fan_in),2,2.1203501e-12
+relu (uniform_fan_in),3,2.0846619e-12
+relu (uniform_fan_in),4,2.484522e-12
+relu (uniform_fan_in),5,4.067658e-12
+relu (uniform_fan_in),6,7.312162e-12
+relu (uniform_fan_in),7,1.9329082e-11
+relu (uniform_fan_in),8,4.762336e-11
+relu (uniform_fan_in),9,1.11588246e-10
+relu (uniform_fan_in),10,3.262409e-10
+relu (uniform_fan_in),11,9.037006e-10
+relu (uniform_fan_in),12,2.2007927e-09
+relu (uniform_fan_in),13,5.124416e-09
+relu (uniform_fan_in),14,1.1568155e-08
+relu (uniform_fan_in),15,3.1507216e-08
+relu (uniform_fan_in),16,8.460307e-08
+relu (uniform_fan_in),17,1.8672529e-07
+relu (uniform_fan_in),18,3.7715873e-07
+relu (uniform_fan_in),19,1.0683239e-06
+relu (uniform_fan_in),20,2.4318022e-06
+relu (uniform_fan_in),21,5.6509903e-06
+relu (uniform_fan_in),22,1.4673965e-05
+relu (uniform_fan_in),23,3.0690626e-05
+relu (uniform_fan_in),24,8.162477e-05
+relu (uniform_fan_in),25,0.00018194832
+relu (uniform_fan_in),26,0.00047809887
+relu (uniform_fan_in),27,0.0011262253
+relu (uniform_fan_in),28,0.0029086939
+relu (uniform_fan_in),29,0.007020919
+relu (uniform_fan_in),30,0.018606283
+relu (kaiming_normal),1,1.1517023
+relu (kaiming_normal),2,2.175751
+relu (kaiming_normal),3,2.934693
+relu (kaiming_normal),4,3.5858848
+relu (kaiming_normal),5,4.033701
+relu (kaiming_normal),6,4.5507827
+relu (kaiming_normal),7,4.1504374
+relu (kaiming_normal),8,4.595667
+relu (kaiming_normal),9,4.941661
+relu (kaiming_normal),10,5.3579335
+relu (kaiming_normal),11,4.805361
+relu (kaiming_normal),12,4.2565484
+relu (kaiming_normal),13,4.3928895
+relu (kaiming_normal),14,4.5285206
+relu (kaiming_normal),15,5.9349
+relu (kaiming_normal),16,5.803574
+relu (kaiming_normal),17,5.468912
+relu (kaiming_normal),18,5.2809124
+relu (kaiming_normal),19,5.340969
+relu (kaiming_normal),20,5.647758
+relu (kaiming_normal),21,5.952931
+relu (kaiming_normal),22,5.714399
+relu (kaiming_normal),23,5.0062313
+relu (kaiming_normal),24,5.8225574
+relu (kaiming_normal),25,6.8891263
+relu (kaiming_normal),26,6.546417
+relu (kaiming_normal),27,6.4999185
+relu (kaiming_normal),28,6.2626586
+relu (kaiming_normal),29,6.1421638
+relu (kaiming_normal),30,6.953739
+relu + LayerNorm (uniform_fan_in),1,0.83224136
+relu + LayerNorm (uniform_fan_in),2,0.82848185
+relu + LayerNorm (uniform_fan_in),3,0.75934315
+relu + LayerNorm (uniform_fan_in),4,0.8244226
+relu + LayerNorm (uniform_fan_in),5,0.8639176
+relu + LayerNorm (uniform_fan_in),6,0.91708523
+relu + LayerNorm (uniform_fan_in),7,1.0436944
+relu + LayerNorm (uniform_fan_in),8,1.0569512
+relu + LayerNorm (uniform_fan_in),9,1.0111666
+relu + LayerNorm (uniform_fan_in),10,1.1836114
+relu + LayerNorm (uniform_fan_in),11,1.0274949
+relu + LayerNorm (uniform_fan_in),12,1.027208
+relu + LayerNorm (uniform_fan_in),13,1.0511264
+relu + LayerNorm (uniform_fan_in),14,1.1334399
+relu + LayerNorm (uniform_fan_in),15,1.0888577
+relu + LayerNorm (uniform_fan_in),16,1.3485341
+relu + LayerNorm (uniform_fan_in),17,1.2321976
+relu + LayerNorm (uniform_fan_in),18,1.2911065
+relu + LayerNorm (uniform_fan_in),19,1.4675938
+relu + LayerNorm (uniform_fan_in),20,1.3267673
+relu + LayerNorm (uniform_fan_in),21,1.5774913
+relu + LayerNorm (uniform_fan_in),22,1.5765568
+relu + LayerNorm (uniform_fan_in),23,1.7596842
+relu + LayerNorm (uniform_fan_in),24,2.067149
+relu + LayerNorm (uniform_fan_in),25,2.076633
+relu + LayerNorm (uniform_fan_in),26,1.8689399
+relu + LayerNorm (uniform_fan_in),27,2.2632053
+relu + LayerNorm (uniform_fan_in),28,2.2725227
+relu + LayerNorm (uniform_fan_in),29,2.3891146
+relu + LayerNorm (uniform_fan_in),30,2.6669648

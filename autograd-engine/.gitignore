@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+results/run.log
+results/timing_run.log
+checkpoints/
+*.pt
+data/
